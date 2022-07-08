@@ -67,17 +67,17 @@ function my_keydown(e) {
 	//car1
 		if(keyPressed == '38')
 		{
-			up();
+			//up();
 			console.log("up arrow key");
 		}
 		if(keyPressed == '40')
 		{
-			down();
+			//down();
 			console.log("down arrow key");
 		}
 		if(keyPressed == '37')
 		{
-			left();
+			//left();
 			console.log("left arrow key");
 		}
 		if(keyPressed == '39')
@@ -88,22 +88,23 @@ function my_keydown(e) {
         //car2
 		if(keyPressed == '87')
 		{
-			up();
+			//up();
 			console.log("key w");
 		}
 		if(keyPressed == '83')
 		{
-			down();
+			//down();
 			console.log("key s");
 		}
 		if(keyPressed == '65')
 		{
-			left();
+			//left();
 			console.log("key a");
 		}
 		if(keyPressed == '68')
 		{
-			right();
+			//right();
 			console.log("key d");
 		}
 }
+//Mam I marked the right, left, up and down as text because it is not being used currently and if u use it on the web without the text it show some problem 
